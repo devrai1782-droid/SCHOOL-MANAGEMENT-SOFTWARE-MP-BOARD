@@ -4278,6 +4278,12 @@ body.view-only [onclick]:not(.vo-safe){cursor:default}
         <span class="dot" style="background:#fbbf24;box-shadow:0 0 4px #fbbf24"></span>📋 Exam Datasheet
       </div>
       <div class="rdrop-item" onclick="selectResult('tt')"><span class="dot" style="background:#f97316;box-shadow:0 0 4px #f97316"></span>🗓️ Timetable</div>
+      <div class="rdrop-item" id="rdrop-ph" onclick="selectResult('ph')">
+        <span class="dot" style="background:#34d399;box-shadow:0 0 4px #34d399"></span>📷 Photos
+      </div>
+      <div class="rdrop-item" id="rdrop-sub" onclick="selectResult('sub')">
+        <span class="dot" style="background:#f472b6;box-shadow:0 0 4px #f472b6"></span>➕ Add/Remove Subject
+      </div>
 
     </div>
   </div>
@@ -4311,9 +4317,6 @@ body.view-only [onclick]:not(.vo-safe){cursor:default}
         <div class="rdrop-item" style="padding-left:34px;font-size:12px;" onclick="showInstructions(9)">🏫 <span data-hi="कक्षा 9वीं" data-en="Class 9">कक्षा 9वीं</span></div>
         <div class="rdrop-item" style="padding-left:34px;font-size:12px;" onclick="showInstructions(11)">🏫 <span data-hi="कक्षा 11वीं" data-en="Class 11">कक्षा 11वीं</span></div>
         <div class="rdrop-item" style="padding-left:34px;font-size:12px;" onclick="showInstructions('primary')">🌱 <span data-hi="नर्सरी से 7वीं" data-en="Nursery to 7">नर्सरी से 7वीं</span></div>
-      </div>
-      <div class="rdrop-item" id="rdrop-ph" onclick="selectResult('ph')">
-        <span class="dot" style="background:#34d399;box-shadow:0 0 4px #34d399"></span>📷 Photos
       </div>
       <div class="rdrop-item" id="rdrop-rs" onclick="selectResult('rs')">
         <span class="dot" style="background:#6ee7b7;box-shadow:0 0 4px #6ee7b7"></span>📜 Result Sheet
@@ -4353,9 +4356,6 @@ body.view-only [onclick]:not(.vo-safe){cursor:default}
       </div>
       <div class="rdrop-item" id="rdrop-nb" onclick="selectResult('nb')">
         <span class="dot" style="background:#ff6b6b;box-shadow:0 0 4px #ff6b6b"></span>📋 Notice Board
-      </div>
-      <div class="rdrop-item" id="rdrop-sub" onclick="selectResult('sub')">
-        <span class="dot" style="background:#f472b6;box-shadow:0 0 4px #f472b6"></span>➕ Add/Remove Subject
       </div>
 
       <div class="rdrop-item" id="rdrop-mw" onclick="selectResult('mw')">
