@@ -1,5 +1,5 @@
 // RSK ERP Service Worker
-const CACHE_NAME = 'rsk-erp-v30';
+const CACHE_NAME = 'rsk-erp-v31';
 
 self.addEventListener('install', function(e) { self.skipWaiting(); });
 self.addEventListener('activate', function(e) { e.waitUntil(clients.claim()); });
